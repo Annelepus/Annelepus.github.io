@@ -1,6 +1,7 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
+    background-color: #999999
 }
 header {
   margin-top: 20px;
