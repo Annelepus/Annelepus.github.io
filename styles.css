@@ -1,7 +1,30 @@
 body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
-    background-image: url("./images/background.png");
+}
+
+.avatar-head {
+  height: 180px;
+  margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  display: block;
+  margin-bottom: -10px;
+  margin-top: -12px;
+  z-index: -1;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.avatar-card {
+  line-height: 2;
+  color: #eeeeee;
+  text-align: center;
+  cursor: pointer;
+}
+
+.av {
+  font-size: 16px;
 }
 
 .sidenav {
