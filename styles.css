@@ -8,6 +8,13 @@ header {
   padding-bottom: 10px;
   border-bottom: 2px solid #b5b5b5;
 }
+.area {
+    display: flex;
+    flex-wrap: wrap;        /* lets them wrap on smaller screens */
+    gap: 20px;              /* spacing between cards (optional) */
+    justify-content: center; /* centers the cards horizontally */
+}
+
 .logo {
   width: 244.5;
   height: 100;
