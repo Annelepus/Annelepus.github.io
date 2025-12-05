@@ -23,6 +23,11 @@ body {
   cursor: pointer;
 }
 
+.hover-shadow {
+  position: relative;
+  cursor: pointer;
+}
+
 .av {
   font-size: 16px;
 }
