@@ -1,5 +1,7 @@
 body {
-  background-image: url("./images/background.png");
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    background-image: url("./images/background.png");
 }
 
 .sidenav {
