@@ -2,6 +2,16 @@ body {
     font-family: "Lato", sans-serif;
     transition: background-color .5s;
 }
+header {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #b5b5b5;
+}
+.logo {
+  width: 366.5;
+  height: 150;
+  text-align: center;
+}
 
 .avatar-head {
   height: 180px;
