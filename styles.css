@@ -1,7 +1,11 @@
 body {
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-    background-color: #999999
+  color: #fff;
+  font-family: Anuphan;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8em;
+  scrollbar-color: #1c1d21 #36373d;
 }
 header {
   margin-top: 20px;
@@ -20,6 +24,22 @@ header {
   height: 100;
   text-align: center;
 }
+.pw-content-placeholder {
+  margin: 15px 0;
+  min-height: 140px;
+}
+
+.section-header.with-control {
+  align-items: center;
+  display: flex;
+}
+
+.section-header {
+  border-bottom: 2px solid #2692d3;
+  margin: 25px 0 15px;
+  padding-bottom: 6px;
+}
+
 
 .avatar-head {
   height: 180px;
