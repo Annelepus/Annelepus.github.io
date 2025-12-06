@@ -19,7 +19,10 @@ header {
 }
 
 .content-background.endfield {
-  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/background.png);
+  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/Arknights_Endfield_index.png);
+}
+.content-background.endfield2 {
+  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/.png);
 }
 
 .content-background {
