@@ -18,6 +18,12 @@ header {
     justify-content: center; /* centers the cards horizontally */
 }
 
+.gacha_2 {
+  width: 70%;
+  max-width: 500px;
+  margin: 0 0 -20px 0;
+}
+
 .content-background.endfield {
   background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/Arknights_Endfield_index.png);
 }
