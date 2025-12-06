@@ -18,6 +18,44 @@ header {
     justify-content: center; /* centers the cards horizontally */
 }
 
+.gacha_1 {
+    width: 100%;
+    margin-left: calc(50% - min(500px, 100%) / 2);
+    max-width: 500px;
+}
+
+.gacha_2 {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 0 -20px 0;
+}
+
+
+.a_section,
+.a_section_small,
+.a_section_smallsmall,
+.a_section_small_1,
+.a_section_small_2,
+.a_section_small_3,
+.a_section_small_4 {
+    width: calc(100% - 4px);
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #27363E;
+    color: #eeeeee;
+    position: relative;
+    margin: 3px 0;
+}
+
+.mon_body, .mon_body_2 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
 .gacha_2 {
   width: 70%;
   max-width: 500px;
