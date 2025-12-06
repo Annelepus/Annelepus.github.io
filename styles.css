@@ -18,6 +18,22 @@ header {
     justify-content: center; /* centers the cards horizontally */
 }
 
+.content-background.endfield {
+  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/background.png);
+}
+
+.content-background {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -5;
+}
+
 .logo {
   width: 244.5;
   height: 100;
