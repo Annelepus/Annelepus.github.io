@@ -41,7 +41,7 @@ header {
     width: calc(100% - 4px);
     display: inline-block;
     border-radius: 10px;
-    background-color: #27363E;
+    background-color: #111;
     color: #eeeeee;
     position: relative;
     margin: 3px 0;
