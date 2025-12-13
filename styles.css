@@ -10,22 +10,27 @@ body {
   line-height: 1.8em;
   scrollbar-color: #1c1d21 #36373d;
 }
+
 header {
   margin-top: 20px;
   padding-bottom: 10px;
   border-bottom: 2px solid #b5b5b5;
 }
+
 .area {
-    display: flex;
-    flex-wrap: wrap;        /* lets them wrap on smaller screens */
-    gap: 20px;              /* spacing between cards (optional) */
-    justify-content: center; /* centers the cards horizontally */
+  display: flex;
+  flex-wrap: wrap;
+  /* lets them wrap on smaller screens */
+  gap: 20px;
+  /* spacing between cards (optional) */
+  justify-content: center;
+  /* centers the cards horizontally */
 }
 
 .gacha_1 {
-    width: 100%;
-    margin-left: calc(50% - min(500px, 100%) / 2);
-    max-width: 500px;
+  width: 100%;
+  margin-left: calc(50% - min(500px, 100%) / 2);
+  max-width: 500px;
 }
 
 button {
@@ -38,31 +43,35 @@ button {
   cursor: pointer;
   margin: 5px auto;
 }
-.buttons{
+
+.buttons {
   text-align: center;
 }
+
 .gacha_2 {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 0 -20px 0;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 0 -20px 0;
 }
 
 .mat {
-        margin: 10px 7px;
-        padding: 0px 12px;
-        line-height: 25px;
-        text-align: center;
-        
+  margin: 10px 7px;
+  padding: 0px 12px;
+  line-height: 25px;
+  text-align: center;
+
 }
+
 .mat_a {
-    position: relative;
-    color: #eeeeee;
+  position: relative;
+  color: #eeeeee;
 }
 
 .mat_num {
-        right: 0px;
-        font-size: 15px!important;
+  right: 0px;
+  font-size: 15px !important;
 }
+
 .a_section,
 .a_section_small,
 .a_section_smallsmall,
@@ -70,52 +79,56 @@ button {
 .a_section_small_2,
 .a_section_small_3,
 .a_section_small_4 {
-    width: calc(100% - 4px);
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #111;
-    color: #eeeeee;
-    position: relative;
-    margin: 3px 0;
+  width: calc(100% - 4px);
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #111;
+  color: #eeeeee;
+  position: relative;
+  margin: 3px 0;
 }
+
 .a_section_head,
 .a_section_head span {
-        font-size: 20px;
+  font-size: 20px;
 }
+
 .a_section_content {
-        font-size: 17px;
-    }
+  font-size: 17px;
+}
 
 .sbp {
-    margin-right: 10px;
-    white-space: pre;
+  margin-right: 10px;
+  white-space: pre;
 }
 
 .head_withimg {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .head_left {
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
+
 .head_right {
-        margin: 0 0 0 5px;
-      }
+  margin: 0 0 0 5px;
+}
 
 .hr_1 {
-      width: calc(100% - 55px);
-    }
+  width: calc(100% - 55px);
+}
 
 
-.mon_body, .mon_body_2 {
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
+.mon_body,
+.mon_body_2 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 
@@ -128,29 +141,34 @@ button {
 .opcard {
   image-orientation: left;
 }
-.opcard-table{
+
+.opcard-table {
   margin: 0px auto;
   border: 2px solid #f1f1f1;
   text-align: center;
 }
 
 .mat-table {
-  margin:0px auto;
+  margin: 0px auto;
   border: 1px solid #f1f1f1;
   text-align: center;
 }
+
 .gallery-table {
-  margin:20px 0;
-  border-collapse:collapse;
-  border:1px solid var(--theme-border-color)
+  margin: 20px 0;
+  border-collapse: collapse;
+  border: 1px solid var(--theme-border-color)
 }
 
 
 .content-background.endfield {
-  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/Arknights_Endfield_index.png);
+  background-image: linear-gradient(180deg, transparent, #23242a 80%), url(/images/Arknights_Endfield_index.png);
+  position: absolute;
 }
+
 .content-background.endfield2 {
-  background-image: linear-gradient(180deg,transparent,#23242a 80%),url(/images/AKEndfield.png);
+  background-image: linear-gradient(180deg, transparent, #23242a 80%), url(/images/AKEndfield.png);
+  position: absolute;
 }
 
 .content-background {
@@ -170,6 +188,7 @@ button {
   height: 100;
   text-align: center;
 }
+
 .pw-content-placeholder {
   margin: 15px 0;
   min-height: 140px;
@@ -190,8 +209,8 @@ button {
 .avatar-head {
   height: 180px;
   margin: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   display: block;
   margin-bottom: -10px;
   margin-top: -12px;
@@ -217,16 +236,25 @@ button {
 }
 
 .sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */
 }
 
 /* The navigation menu links */
@@ -259,6 +287,7 @@ button {
   border: 2px solid red;
   position: relative;
 }
+
 .tooltip {
   position: relative;
   display: inline-block;
@@ -287,7 +316,7 @@ button {
   opacity: 1;
 }
 
-details p{
+details p {
   animation: anim 400ms;
   transform-origin: top;
 }
@@ -296,15 +325,16 @@ summary {
   font-size: 1em;
 }
 
-@keyframes anim{
- from{
-  transform: scale(1, 0);
-  opacity: 0;
- }
- to{
-  transform: scale(1, 1);
-  opacity: 1;
- }
+@keyframes anim {
+  from {
+    transform: scale(1, 0);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
 }
 
 #main {
@@ -313,8 +343,13 @@ summary {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
 #lore {
@@ -325,4 +360,36 @@ summary {
 #buttontrans {
   transition: margin-left .5s;
   padding: 20px;
+}
+
+.tabber {
+  position: relative;
+  overflow: hidden
+}
+
+.tabber__header {
+  box-shadow: inset 0 -1px 0 0 var(--border-color-base, #a2a9b1)
+}
+
+.tabber__tabs {
+  display: flex;
+  overflow: auto hidden
+}
+
+.tabber__tab {
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  white-space: nowrap
+}
+
+.tabber__tab,
+.tabber__tab:hover,
+.tabber__tab:active,
+.tabber__tab:focus {
+  text-decoration: none
+}
+
+.tabber__tab,
+.tabber__tab:visited {
+  color: var(--color-base, #202122)
 }
